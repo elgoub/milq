@@ -47,7 +47,7 @@ sudo apt-get install -y doxygen
 
 # 3. INSTALL THE LIBRARY (YOU CAN CHANGE '3.2.0' FOR THE LAST STABLE VERSION)
 
-sudo apt-get install -y unzip wget
+sudo apt-get install -y unzip subversion
 wget https://github.com/opencv/opencv/archive/3.2.0.zip
 unzip 3.2.0.zip
 rm 3.2.0.zip
